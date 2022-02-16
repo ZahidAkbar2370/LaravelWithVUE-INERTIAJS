@@ -1,0 +1,24 @@
+
+
+1) Create New Vue Commponent in Recourses->js->pages
+2) in vue Commponent two things (i) header (ii) layout
+
+3) create recourse type route
+4) Create COntroller with recourse is best
+
+
+/node_modules
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
+.env
+.env.backup
+.phpunit.result.cache
+docker-compose.override.yml
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+/.idea
+/.vscode
