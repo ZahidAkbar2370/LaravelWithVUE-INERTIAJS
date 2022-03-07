@@ -8,6 +8,8 @@ use App\Http\Controllers\PostController;
 use App\Http\Controllers\CategoreyController;
 use App\Http\Controllers\ProductController;
 use App\Http\Controllers\UserController;
+use App\Http\Controllers\DataTableController;
+use App\Http\Controllers\RandomUser;
 
 /*
 |--------------------------------------------------------------------------
@@ -29,8 +31,13 @@ Route::get('/', function () {
     ]);
 });
 
+Route::get('/tests-data',[DataTableController::class, "returnData"]);
+Route::get('/tests',[DataTableController::class, "index"]);
+
 // Post Crud
 Route::resource('posts', PostController::class);
+// Route::resource('datatables', DataTableController::class);
+// Route::get('datatablevalues', "App\Http\Controllers\DataTableController@returnData");
 
 // Categorey With Active and Inactive
 Route::resource('categoreys', CategoreyController::class);
@@ -50,8 +57,13 @@ Route::get('select', [UserController::class, "select"]);
 
 // Simple Vue Component Call
 Route::get('test', function () {
-    return Inertia::render("Test");
+    return Inertia::render("DataTable");
 });
+
+Route::get('randomuser', function () {
+    return Inertia::render("randomuser");
+});
+Route::get('randomuser', [RandomUser::class, "index"]);
 
 // ChildrenFile Componenet Call, in this Test File is Child.
 Route::get('ChildrenFile', function () {

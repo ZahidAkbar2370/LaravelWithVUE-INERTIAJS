@@ -1,11 +1,11 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => NULL,
+        'reference' => '9e25d1337a3bf560eb2c7016e3606534e92e88a0',
         'name' => 'laravel/laravel',
         'dev' => true,
     ),
@@ -394,6 +394,15 @@
             'reference' => '6a050ce04a710ac4809161558ac09fe49f13075e',
             'dev_requirement' => false,
         ),
+        'jamesdordoy/laravelvuedatatable' => array(
+            'pretty_version' => '1.3.8',
+            'version' => '1.3.8.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../jamesdordoy/laravelvuedatatable',
+            'aliases' => array(),
+            'reference' => '97caa1161c7bedcc1a54ad4d818c7e18eadcd916',
+            'dev_requirement' => false,
+        ),
         'jaybizzle/crawler-detect' => array(
             'pretty_version' => 'v1.2.110',
             'version' => '1.2.110.0',
@@ -446,12 +455,12 @@
             'dev_requirement' => false,
         ),
         'laravel/laravel' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => NULL,
+            'reference' => '9e25d1337a3bf560eb2c7016e3606534e92e88a0',
             'dev_requirement' => false,
         ),
         'laravel/sail' => array(

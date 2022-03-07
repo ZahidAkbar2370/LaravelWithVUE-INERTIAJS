@@ -46,6 +46,10 @@
                                 <jet-nav-link :href="'ChildrenFile'">
                                     Parient Child
                                 </jet-nav-link>
+
+                                <jet-nav-link :href="'randomuser'">
+                                    Random User Gernate
+                                </jet-nav-link>
                                 
                             </div>
                         </div>

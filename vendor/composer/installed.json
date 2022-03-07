@@ -1495,6 +1495,62 @@
             "install-path": "../inertiajs/inertia-laravel"
         },
         {
+            "name": "jamesdordoy/laravelvuedatatable",
+            "version": "1.3.8",
+            "version_normalized": "1.3.8.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jamesdordoy/Laravel-Vue-Datatable_Laravel-Package.git",
+                "reference": "97caa1161c7bedcc1a54ad4d818c7e18eadcd916"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jamesdordoy/Laravel-Vue-Datatable_Laravel-Package/zipball/97caa1161c7bedcc1a54ad4d818c7e18eadcd916",
+                "reference": "97caa1161c7bedcc1a54ad4d818c7e18eadcd916",
+                "shasum": ""
+            },
+            "require-dev": {
+                "orchestra/testbench": "^3.7",
+                "phpunit/phpunit": "^7.5"
+            },
+            "time": "2020-09-15T13:35:59+00:00",
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "JamesDordoy\\LaravelVueDatatable\\Providers\\LaravelVueDatatableServiceProvider"
+                    ]
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "JamesDordoy\\LaravelVueDatatable\\": "src/"
+                },
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "James Dordoy",
+                    "email": "jamesdordoy@gmail.com"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/jamesdordoy/Laravel-Vue-Datatable_Laravel-Package/issues",
+                "source": "https://github.com/jamesdordoy/Laravel-Vue-Datatable_Laravel-Package/tree/1.3.8"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/jamesdordoy",
+                    "type": "github"
+                }
+            ],
+            "install-path": "../jamesdordoy/laravelvuedatatable"
+        },
+        {
             "name": "jaybizzle/crawler-detect",
             "version": "v1.2.110",
             "version_normalized": "1.2.110.0",
